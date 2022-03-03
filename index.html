@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Bueno pues aqui es el tiulo nomas-->
+    <h2>Selecciona la cantidad de cartas</h2>
+
+
+    <!--Aqui Ari, tenemos una seccion la cual sirve como contenedor-->
+    <section class="opciones">
+        <!--Aqui tenemos las opciones a eleguir, es esa cajita donde aparecen los numeros-->
+        <select class="seleccion" id="seleccion">
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+        </select>
+        <!--Un botoncito-->
+        <button class="btn" onclick="tamaño()">Mostrar</button>
+    </section>
+
+    <!--Aaaaa mira, aqui esta la magia chida-->
+    <!--Aqui solo tenemos un contenedor que contendra las tarjetitas-->
+    <!--Pero te preguntaras porque solo un contenedor¿?-->
+    <!--Pues porque nosotros crearemos las tarjetitas dinamicamente-->
+    <!--Osea nosotros con el boton crearemos divs-->
+    <section class="tablero">
+        <div><h1>?</h1></div>
+        <div><h1>?</h1></div>
+        <div><h1>?</h1></div>
+        <div><h1>?</h1></div>
+        <div><h1>?</h1></div>
+        <div><h1>?</h1></div>
+    </section>
+
+
+    <!--Aqui nomas llamamos al scrip, amos a style.css-->
+    <script src="script.js"></script>
+</body>
+</html>
