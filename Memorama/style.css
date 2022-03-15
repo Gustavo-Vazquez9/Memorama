@@ -28,6 +28,11 @@ h2{
     border-radius: 30px;
     padding: 10px;
 }
+.vidas{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
 
 /*Aqui esta la cajita, ya sabes solo dando estilos bonitos
 amos a btn (el botoncito paps)*/
@@ -61,6 +66,7 @@ amos al .tablero div*/
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 2px solid #038467;
 }
 
 
@@ -70,7 +76,6 @@ acuerdate que nosotros lo crearemos con el boton
 osea cada que apachuremos el boton se van a crear divssssss uuuuuuu
 amos a .tablero div .h1*/
 .tablero div{
-    background-color: #038467;
     width: 20%;
     height: 30%;
     margin: 9px;
@@ -81,12 +86,30 @@ amos a .tablero div .h1*/
 pues este h1 esta dentro del div que crearemos con el boton
 exacto, este h1 va dentro del div y tambien lo creamos dinamico
 fin, amos a script.js*/
-.tablero div h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 18%;
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #ffffff;
+.tablero div .muestra{
+    width: 100%;
+}
+.tablero div .muestra .a{
+    width: 100%;
+    display: none;
+}
+.tablero div .muestra .i{
+width: 100%;
+cursor: pointer;
+}
+
+.tablero div .closed .a{
+        width: 100%;
+        display: inline-block;
+}
+.tablero div .closed .i{
+    width: 100%;
+    display: none;
+}
+.mensajeDime{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #038467;
+    border-bottom: 2px solid #e6e6e6;
 }
